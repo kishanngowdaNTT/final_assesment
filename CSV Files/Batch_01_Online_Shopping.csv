@@ -1,0 +1,141 @@
+order_id,order_date,order_status,order_updated_at,customer_id,customer_name,customer_city,customer_state,customer_dob,product_id,product_name,category,brand,quantity,unit_price,discount,payment_method_id,payment_method,payment_provider
+ORD01038,2026-07-28,Delivered,2026-07-29 22:49:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD302,Air Fryer,Home & Kitchen,Philips,2,8999.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01053,2026-10-04,Cancelled,2026-10-05 17:48:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD105,Smart Watch,Electronics,boAt,2,4999.0,500.0,PAY008,Wallet,Amazon Pay
+ORD01091,2025-11-01,Shipped,2025-11-03 19:23:00,CUST522,Ira Kapoor,Noida,Uttar Pradesh,1996-10-20,PROD501,Fiction Novel,Books,Penguin,1,399.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01100,2026-10-11,Delivered,2026-10-11 02:46:00,CUST504,Ananya Iyer,Chennai,Tamil Nadu,1997-09-14,PROD401,Face Moisturizer,Beauty,Nivea,2,499.0,149.0,PAY002,UPI,PhonePe
+ORD01048,2026-07-20,Processing,2026-07-22 18:30:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD301,Mixer Grinder,Home & Kitchen,Prestige,1,3499.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01051,2025-02-14,Delivered,2025-02-16 16:25:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD502,Exam Preparation Guide,Books,Arihant,2,599.0,179.0,PAY004,Credit Card,HDFC Bank
+ORD01066,2026-02-13,Processing,2026-02-13 14:44:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD201,Running Shoes,Fashion,Nike,2,4999.0,50.0,PAY002,UPI,PhonePe
+ORD01041,2025-11-07,Shipped,2025-11-08 05:01:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD302,Air Fryer,Home & Kitchen,Philips,3,8999.0,50.0,PAY005,Debit Card,SBI
+ORD01060,2025-09-22,Delivered,2025-09-22 04:58:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD106,USB-C Charger,Electronics,Anker,4,1299.0,500.0,PAY008,Wallet,Amazon Pay
+ORD01102,2026-02-18,Shipped,2026-02-18 09:15:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD301,Mixer Grinder,Home & Kitchen,Prestige,3,3499.0,0.0,PAY008,Wallet,Amazon Pay
+ORD01071,2025-09-16,Delivered,2025-09-19 00:00:00,CUST507,Arjun Singh,Jaipur,Rajasthan,1986-07-25,PROD302,Air Fryer,Home & Kitchen,Philips,1,8999.0,100.0,PAY005,Debit Card,SBI
+ORD01005,2025-10-18,Delivered,2025-10-18 06:42:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD503,Cookbook,Books,HarperCollins,2,499.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD01101,2026-09-05,Delivered,2026-09-05 11:54:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD402,Shampoo 650ml,Beauty,Dove,1,399.0,59.0,PAY005,Debit Card,SBI
+ORD01003,2025-08-28,Delivered,2025-08-29 04:48:00,CUST501,Aarav Sharma,Bengaluru,Karnataka,1995-06-12,PROD106,USB-C Charger,Electronics,Anker,1,1299.0,0.0,PAY007,Cash,Not Applicable
+ORD01026,2026-11-09,Delivered,2026-11-11 15:09:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD204,Denim Jeans,Fashion,Lee,2,2299.0,500.0,PAY007,Cash,Not Applicable
+ORD01042,2025-10-09,Cancelled,2025-10-11 21:21:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD203,Backpack,Fashion,Skybags,2,1799.0,200.0,PAY006,Net Banking,ICICI Bank
+ORD01021,2026-02-07,Processing,2026-02-09 00:12:00,CUST518,Riya Banerjee,Bhubaneswar,Odisha,1997-11-13,PROD105,Smart Watch,Electronics,boAt,1,4999.0,300.0,PAY008,Wallet,Amazon Pay
+ORD01120,2025-11-08,Delivered,2025-11-08 08:25:00,CUST512,Tara Menon,Thiruvananthapuram,Kerala,1996-08-05,PROD104,Laptop 15-inch,Electronics,HP,2,58999.0,150.0,PAY006,Net Banking,ICICI Bank
+ORD01119,2025-05-14,Delivered,2025-05-14 05:44:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD104,Laptop 15-inch,Electronics,HP,2,58999.0,100.0,PAY008,Wallet,Amazon Pay
+ORD01063,2025-01-18,Delivered,2025-01-18 04:15:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD302,Air Fryer,Home & Kitchen,Philips,2,8999.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01107,2025-11-03,Processing,2025-11-04 09:29:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD302,Air Fryer,Home & Kitchen,Philips,2,8999.0,200.0,PAY005,Debit Card,SBI
+ORD01013,2026-03-18,Delivered,2026-03-18 21:29:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD203,Backpack,Fashion,Skybags,1,1799.0,200.0,PAY006,Net Banking,ICICI Bank
+ORD01058,2025-12-23,Delivered,2025-12-24 15:48:00,CUST501,Aarav Sharma,Bengaluru,Karnataka,1995-06-12,PROD502,Exam Preparation Guide,Books,Arihant,1,599.0,89.0,PAY007,Cash,Not Applicable
+ORD01002,2025-01-03,Delivered,2025-01-05 06:14:00,CUST507,Arjun Singh,Jaipur,Rajasthan,1986-07-25,PROD202,Cotton T-Shirt,Fashion,Levis,2,999.0,299.0,PAY001,UPI,Google Pay
+ORD01067,2026-08-20,Delivered,2026-08-22 00:04:00,CUST504,Ananya Iyer,Chennai,Tamil Nadu,1997-09-14,PROD502,Exam Preparation Guide,Books,Arihant,1,599.0,89.0,PAY001,UPI,Google Pay
+ORD01030,2025-07-23,Cancelled,2025-07-25 11:20:00,CUST511,Rohan Gupta,Delhi,Delhi,1991-05-22,PROD202,Cotton T-Shirt,Fashion,Levis,1,999.0,100.0,PAY005,Debit Card,SBI
+ORD01017,2025-02-25,Delivered,2025-02-25 22:16:00,CUST518,Riya Banerjee,Bhubaneswar,Odisha,1997-11-13,PROD105,Smart Watch,Electronics,boAt,2,4999.0,500.0,PAY003,UPI,Paytm
+ORD01009,2025-09-09,Cancelled,2025-09-11 03:56:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD201,Running Shoes,Fashion,Nike,1,4999.0,300.0,PAY006,Net Banking,ICICI Bank
+ORD01094,2025-03-27,Shipped,2025-03-29 16:59:00,CUST504,Ananya Iyer,Chennai,Tamil Nadu,1997-09-14,PROD401,Face Moisturizer,Beauty,Nivea,2,499.0,0.0,PAY002,UPI,PhonePe
+ORD01031,2026-10-01,Delivered,2026-10-03 17:16:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD503,Cookbook,Books,HarperCollins,1,499.0,50.0,PAY002,UPI,PhonePe
+,2025-03-04,Returned,2025-01-10 10:00:00,CUST512,Tara Menon,Thiruvananthapuram,Kerala,1996-08-05,PROD302,Air Fryer,Home & Kitchen,Philips,3,8999.0,300.0,PAY005,Debit Card,SBI
+ORD01076,2026-06-20,Delivered,2026-06-20 23:19:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,150.0,PAY004,Credit Card,HDFC Bank
+ORD01099,2025-10-11,Delivered,2025-10-13 16:02:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD402,Shampoo 650ml,Beauty,Dove,1,399.0,0.0,PAY007,Cash,Not Applicable
+ORD01075,2025-03-07,Delivered,2025-03-08 12:46:00,CUST511,Rohan Gupta,Delhi,Delhi,1991-05-22,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,300.0,PAY003,UPI,Paytm
+ORD01023,2025-09-28,Delivered,2025-09-28 18:27:00,CUST504,Ananya Iyer,Chennai,Tamil Nadu,1997-09-14,PROD202,Cotton T-Shirt,Fashion,Levis,1,999.0,149.0,PAY004,Credit Card,HDFC Bank
+ORD01008,2026-11-21,Delivered,2026-11-22 06:52:00,CUST523,Rahul Bhat,Visakhapatnam,Andhra Pradesh,1991-03-12,PROD501,Fiction Novel,Books,Penguin,2,399.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01033,2026-08-17,Delivered,2026-08-17 18:16:00,CUST501,Aarav Sharma,Bengaluru,Karnataka,1995-06-12,PROD501,Fiction Novel,Books,Penguin,4,399.0,0.0,PAY005,Debit Card,SBI
+ORD01105,2025-12-26,Cancelled,2025-12-27 07:31:00,CUST506,Meera Nair,Kochi,Kerala,1994-12-19,PROD106,USB-C Charger,Electronics,Anker,1,1299.0,194.0,PAY003,UPI,Paytm
+ORD01061,2025-12-01,Delivered,2025-12-01 07:16:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD304,Water Bottle,Home & Kitchen,Milton,3,699.0,0.0,PAY003,UPI,Paytm
+ORD01027,2025-07-02,Delivered,2025-07-02 07:37:00,CUST519,Manav Kulkarni,Nagpur,Maharashtra,1992-07-07,PROD501,Fiction Novel,Books,Penguin,2,399.0,0.0,PAY001,UPI,Google Pay
+ORD01114,2026-08-15,Delivered,2026-08-18 00:23:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD105,Smart Watch,Electronics,boAt,3,4999.0,200.0,PAY004,Credit Card,HDFC Bank
+ORD01057,2025-07-14,Cancelled,2025-07-16 06:24:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD301,Mixer Grinder,Home & Kitchen,Prestige,1,3499.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01129,2025-10-26,Processing,2025-10-28 05:21:00,CUST523,Rahul Bhat,Visakhapatnam,Andhra Pradesh,1991-03-12,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,50.0,PAY004,Credit Card,HDFC Bank
+ORD01069,2025-06-17,Delivered,2025-06-18 18:54:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD203,Backpack,Fashion,Skybags,1,1799.0,100.0,PAY008,Wallet,Amazon Pay
+ORD01043,2025-03-09,Processing,2025-03-10 21:46:00,CUST506,Meera Nair,Kochi,Kerala,1994-12-19,PROD502,Exam Preparation Guide,Books,Arihant,1,599.0,89.0,PAY005,Debit Card,SBI
+ORD01123,2026-09-11,Delivered,2026-09-11 17:34:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD105,Smart Watch,Electronics,boAt,1,4999.0,0.0,PAY001,UPI,Google Pay
+ORD01031,2026-10-01,Delivered,2026-10-03 17:16:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD503,Cookbook,Books,HarperCollins,1,-500.0,50.0,PAY002,UPI,PhonePe
+ORD01056,2025-07-11,Delivered,2025-07-13 02:44:00,CUST511,Rohan Gupta,Delhi,Delhi,1991-05-22,PROD501,Fiction Novel,Books,Penguin,1,399.0,50.0,PAY002,UPI,PhonePe
+ORD01072,2025-06-08,Processing,2025-06-10 08:41:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD304,Water Bottle,Home & Kitchen,Milton,2,699.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01103,2026-10-08,Shipped,2026-10-10 09:10:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD103,Bluetooth Speaker,Electronics,JBL,5,3499.0,0.0,PAY007,Cash,Not Applicable
+ORD01082,2026-02-06,Delivered,2026-02-08 10:44:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD106,USB-C Charger,Electronics,Anker,1,1299.0,194.0,PAY002,UPI,PhonePe
+ORD01070,2026-10-09,Delivered,2026-10-10 20:01:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD202,Cotton T-Shirt,Fashion,Levis,2,999.0,200.0,PAY008,Wallet,Amazon Pay
+ORD01011,2026-11-17,Shipped,2026-11-17 21:50:00,CUST516,Pooja Verma,Bhopal,Madhya Pradesh,1995-03-04,PROD103,Bluetooth Speaker,Electronics,JBL,3,3499.0,0.0,PAY001,UPI,Google Pay
+ORD01010,2025-11-09,Delivered,2025-11-11 04:23:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD202,Cotton T-Shirt,Fashion,Levis,2,999.0,200.0,PAY005,Debit Card,SBI
+ORD01090,2026-08-18,Delivered,2026-08-18 15:49:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,74.0,PAY002,UPI,PhonePe
+ORD01006,2025-08-03,Delivered,2025-08-03 21:23:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,150.0,PAY007,Cash,Not Applicable
+ORD01039,2026-09-20,Delivered,2026-09-22 05:01:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD105,Smart Watch,Electronics,boAt,3,4999.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01117,2026-01-21,Returned,2026-01-21 05:19:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD204,Denim Jeans,Fashion,Lee,1,2299.0,0.0,PAY007,Cash,Not Applicable
+ORD01050,2025-07-10,Processing,2025-07-12 13:39:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD201,Running Shoes,Fashion,Nike,1,4999.0,50.0,PAY003,UPI,Paytm
+ORD01064,2025-01-05,Delivered,2025-01-07 12:44:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD105,Smart Watch,Electronics,boAt,2,4999.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01047,2026-02-13,Delivered,2026-02-14 15:18:00,CUST522,Ira Kapoor,Noida,Uttar Pradesh,1996-10-20,PROD106,USB-C Charger,Electronics,Anker,1,1299.0,0.0,PAY005,Debit Card,SBI
+ORD01109,2026-11-22,Cancelled,2026-11-24 16:53:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD203,Backpack,Fashion,Skybags,2,1799.0,0.0,PAY001,UPI,Google Pay
+ORD01088,2025-11-21,Delivered,2025-11-23 15:05:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD203,Backpack,Fashion,Skybags,5,1799.0,200.0,PAY003,UPI,Paytm
+ORD01021,2026-02-07,Delivered,2026-02-09 05:12:00,CUST518,Riya Banerjee,Bhubaneswar,Odisha,1997-11-13,PROD105,Smart Watch,Electronics,boAt,1,4999.0,300.0,PAY008,Wallet,Amazon Pay
+ORD01081,2026-09-14,Delivered,2026-09-15 03:40:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD502,Exam Preparation Guide,Books,Arihant,2,599.0,0.0,PAY001,UPI,Google Pay
+ORD01059,2026-10-27,Delivered,2026-10-29 08:31:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD501,Fiction Novel,Books,Penguin,2,399.0,100.0,PAY004,Credit Card,HDFC Bank
+ORD01054,2026-01-24,Shipped,2026-01-26 10:16:00,CUST517,Dev Malhotra,Chandigarh,Chandigarh,1985-06-28,PROD304,Water Bottle,Home & Kitchen,Milton,3,699.0,300.0,PAY008,Wallet,Amazon Pay
+ORD01049,2026-10-24,Returned,2026-10-24 12:52:00,CUST506,Meera Nair,Kochi,Kerala,1994-12-19,PROD103,Bluetooth Speaker,Electronics,JBL,2,3499.0,150.0,PAY005,Debit Card,SBI
+ORD01110,2025-08-26,Shipped,2025-08-27 09:43:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD503,Cookbook,Books,HarperCollins,1,499.0,50.0,PAY006,Net Banking,ICICI Bank
+ORD01068,2025-10-28,Delivered,2025-10-30 11:45:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD402,Shampoo 650ml,Beauty,Dove,1,399.0,59.0,PAY002,UPI,PhonePe
+ORD01012,2026-01-13,Shipped,2026-01-13 02:43:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD503,Cookbook,Books,HarperCollins,2,499.0,149.0,PAY008,Wallet,Amazon Pay
+ORD01092,2025-11-15,Cancelled,2025-11-16 13:28:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD102,Smartphone 128GB,Electronics,Samsung,1,24999.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01116,2025-10-22,Delivered,2025-10-23 18:58:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD402,Shampoo 650ml,Beauty,Dove,2,399.0,119.0,PAY001,UPI,Google Pay
+ORD01009,2025-09-09,Cancelled,2025-09-11 03:56:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD201,Running Shoes,Fashion,Nike,1,4999.0,300.0,PAY006,Net Banking,ICICI Bank
+ORD01052,2026-02-01,Delivered,2026-02-03 12:03:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,500.0,PAY007,Cash,Not Applicable
+ORD01073,2025-11-01,Delivered,2025-11-02 16:42:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD204,Denim Jeans,Fashion,Lee,1,2299.0,50.0,PAY004,Credit Card,HDFC Bank
+ORD01019,2025-11-08,Delivered,2025-11-09 06:37:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD103,Bluetooth Speaker,Electronics,JBL,1,3499.0,500.0,PAY006,Net Banking,ICICI Bank
+ORD01084,2025-12-26,Delivered,2025-12-27 11:52:00,CUST507,Arjun Singh,Jaipur,Rajasthan,1986-07-25,PROD304,Water Bottle,Home & Kitchen,Milton,2,699.0,0.0,PAY002,UPI,PhonePe
+ORD01001,2026-01-01,Delivered,2026-01-03 22:05:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD203,Backpack,Fashion,Skybags,1,1799.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01104,2026-10-02,Delivered,2026-10-02 19:15:00,CUST511,Rohan Gupta,Delhi,Delhi,1991-05-22,PROD102,Smartphone 128GB,Electronics,Samsung,1,24999.0,200.0,PAY005,Debit Card,SBI
+ORD01044,2025-10-17,Cancelled,2025-10-17 01:33:00,CUST504,Ananya Iyer,Chennai,Tamil Nadu,1997-09-14,PROD303,Bedsheet Set,Home & Kitchen,Spaces,1,1599.0,200.0,PAY004,Credit Card,HDFC Bank
+ORD01115,2025-10-09,Shipped,2025-10-11 01:52:00,CUST518,Riya Banerjee,Bhubaneswar,Odisha,1997-11-13,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,100.0,PAY008,Wallet,Amazon Pay
+ORD01125,2025-01-24,Delivered,2025-01-26 10:49:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD403,Perfume,Beauty,Fogg,2,899.0,269.0,PAY002,UPI,PhonePe
+ORD01116,2025-10-22,Processing,2025-10-23 13:58:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD402,Shampoo 650ml,Beauty,Dove,2,399.0,119.0,PAY001,UPI,Google Pay
+ORD01089,2025-10-11,Cancelled,2025-10-12 13:42:00,CUST522,Ira Kapoor,Noida,Uttar Pradesh,1996-10-20,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,300.0,PAY003,UPI,Paytm
+ORD01035,2025-08-16,Delivered,2025-08-16 06:00:00,CUST509,Vikram Das,Kolkata,West Bengal,1989-10-11,PROD102,Smartphone 128GB,Electronics,Samsung,2,24999.0,100.0,PAY002,UPI,PhonePe
+ORD01108,2025-06-13,Delivered,2025-06-14 14:44:00,CUST516,Pooja Verma,Bhopal,Madhya Pradesh,1995-03-04,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,150.0,PAY004,Credit Card,HDFC Bank
+ORD01078,2025-12-16,Delivered,2025-12-17 09:55:00,CUST516,Pooja Verma,Bhopal,Madhya Pradesh,1995-03-04,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD01004,2025-03-04,Returned,2025-03-06 21:07:00,CUST512,Tara Menon,Thiruvananthapuram,Kerala,1996-08-05,PROD302,Air Fryer,Home & Kitchen,Philips,3,8999.0,300.0,PAY005,Debit Card,SBI
+ORD01095,2025-11-09,Delivered,2025-11-09 19:24:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD402,Shampoo 650ml,Beauty,Dove,1,399.0,59.0,PAY008,Wallet,Amazon Pay
+ORD01083,2025-08-08,Processing,2025-08-09 10:50:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD204,Denim Jeans,Fashion,Lee,1,2299.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01087,2025-03-31,Shipped,2025-03-31 06:48:00,CUST522,Ira Kapoor,Noida,Uttar Pradesh,1996-10-20,PROD502,Exam Preparation Guide,Books,Arihant,5,599.0,100.0,PAY001,UPI,Google Pay
+ORD01079,2026-08-13,Delivered,2026-08-13 11:15:00,CUST516,Pooja Verma,Bhopal,Madhya Pradesh,1995-03-04,PROD103,Bluetooth Speaker,Electronics,JBL,1,3499.0,100.0,PAY001,UPI,Google Pay
+ORD01080,2026-06-20,Delivered,2026-06-22 10:58:00,CUST520,Sana Ali,Coimbatore,Tamil Nadu,1994-01-29,PROD503,Cookbook,Books,HarperCollins,3,499.0,200.0,PAY004,Credit Card,HDFC Bank
+ORD01103,2026-10-08,Shipped,2026-10-10 09:10:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD103,Bluetooth Speaker,Electronics,JBL,5,3499.0,0.0,PAY007,Cash,Not Applicable
+ORD01066,2026-02-13,Processing,2026-02-13 14:44:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD201,Running Shoes,Fashion,Nike,2,4999.0,10098.0,PAY002,UPI,PhonePe
+ORD01128,2026-01-03,Delivered,2026-01-04 14:29:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD203,Backpack,Fashion,Skybags,1,1799.0,269.0,PAY006,Net Banking,ICICI Bank
+ORD01124,2025-05-22,Delivered,2025-05-23 18:01:00,CUST501,Aarav Sharma,Bengaluru,Karnataka,1995-06-12,PROD105,Smart Watch,Electronics,boAt,1,4999.0,50.0,PAY001,UPI,Google Pay
+ORD01036,2025-04-09,Shipped,2025-04-09 10:56:00,CUST506,Meera Nair,Kochi,Kerala,1994-12-19,PROD401,Face Moisturizer,Beauty,Nivea,2,499.0,0.0,PAY007,Cash,Not Applicable
+ORD01098,2025-12-18,Processing,2025-12-20 02:14:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD401,Face Moisturizer,Beauty,Nivea,3,499.0,50.0,PAY006,Net Banking,ICICI Bank
+ORD01015,2026-01-05,Cancelled,2026-01-05 03:07:00,CUST512,Tara Menon,Thiruvananthapuram,Kerala,1996-08-05,PROD106,USB-C Charger,Electronics,Anker,2,1299.0,300.0,PAY001,UPI,Google Pay
+ORD01048,2026-07-20,Processing,2026-07-22 18:30:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD301,Mixer Grinder,Home & Kitchen,Prestige,1,3499.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01072,2025-06-08,Shipped,2025-06-10 13:41:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD304,Water Bottle,Home & Kitchen,Milton,2,699.0,50.0,PAY008,Wallet,Amazon Pay
+ORD01045,2025-11-24,Processing,2025-11-25 17:42:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD201,Running Shoes,Fashion,Nike,1,4999.0,150.0,PAY006,Net Banking,ICICI Bank
+ORD01113,2025-11-30,Cancelled,2025-12-01 14:47:00,CUST509,Vikram Das,Kolkata,West Bengal,1989-10-11,PROD106,USB-C Charger,Electronics,Anker,4,1299.0,300.0,PAY005,Debit Card,SBI
+ORD01029,2025-10-31,Cancelled,2025-11-02 19:20:00,CUST519,Manav Kulkarni,Nagpur,Maharashtra,1992-07-07,PROD202,Cotton T-Shirt,Fashion,Levis,2,999.0,200.0,PAY001,UPI,Google Pay
+ORD01062,2025-07-11,Delivered,2025-07-12 09:53:00,CUST511,Rohan Gupta,Delhi,Delhi,1991-05-22,PROD303,Bedsheet Set,Home & Kitchen,Spaces,2,1599.0,200.0,PAY005,Debit Card,SBI
+ORD01130,2025-10-24,Shipped,2025-10-26 00:09:00,CUST504,Ananya Iyer,Chennai,Tamil Nadu,1997-09-14,PROD301,Mixer Grinder,Home & Kitchen,Prestige,1,3499.0,100.0,PAY007,Cash,Not Applicable
+ORD01020,2025-02-21,Delivered,2025-02-21 10:32:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD202,Cotton T-Shirt,Fashion,Levis,4,999.0,150.0,PAY002,UPI,PhonePe
+ORD01028,2026-10-17,Cancelled,2026-10-17 09:43:00,CUST506,Meera Nair,Kochi,Kerala,1994-12-19,PROD102,Smartphone 128GB,Electronics,Samsung,3,24999.0,0.0,PAY002,UPI,PhonePe
+ORD01065,2025-10-20,Delivered,2025-10-20 04:59:00,CUST520,Sana Ali,Coimbatore,Tamil Nadu,1994-01-29,PROD104,Laptop 15-inch,Electronics,HP,4,58999.0,0.0,PAY003,UPI,Paytm
+ORD01074,2025-11-17,Delivered,2025-11-18 11:19:00,CUST512,Tara Menon,Thiruvananthapuram,Kerala,1996-08-05,PROD304,Water Bottle,Home & Kitchen,Milton,1,699.0,104.0,PAY006,Net Banking,ICICI Bank
+ORD01014,2026-04-24,Shipped,2026-04-25 15:53:00,CUST509,Vikram Das,Kolkata,West Bengal,1989-10-11,PROD403,Perfume,Beauty,Fogg,2,899.0,0.0,PAY003,UPI,Paytm
+ORD01127,2025-01-16,Delivered,2025-01-16 10:57:00,CUST513,Aditya Joshi,Indore,Madhya Pradesh,1987-12-02,PROD304,Water Bottle,Home & Kitchen,Milton,2,699.0,209.0,PAY002,UPI,PhonePe
+ORD01040,2026-10-26,Delivered,2026-10-28 01:55:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD202,Cotton T-Shirt,Fashion,Levis,1,999.0,0.0,PAY005,Debit Card,SBI
+ORD01077,2025-11-09,Cancelled,2025-11-11 15:06:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD102,Smartphone 128GB,Electronics,Samsung,2,24999.0,0.0,PAY005,Debit Card,SBI
+ORD01037,2025-05-02,Cancelled,2025-05-03 16:23:00,CUST512,Tara Menon,Thiruvananthapuram,Kerala,1996-08-05,PROD502,Exam Preparation Guide,Books,Arihant,1,599.0,0.0,PAY003,UPI,Paytm
+ORD01007,2026-02-23,Delivered,2026-02-23 21:29:00,CUST522,Ira Kapoor,Noida,Uttar Pradesh,1996-10-20,PROD103,Bluetooth Speaker,Electronics,JBL,2,3499.0,50.0,PAY003,UPI,Paytm
+ORD01093,2025-11-01,Delivered,2025-11-03 23:00:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD503,Cookbook,Books,HarperCollins,2,499.0,100.0,PAY004,Credit Card,HDFC Bank
+ORD01118,2025-03-08,Shipped,2025-03-10 06:37:00,CUST518,Riya Banerjee,Bhubaneswar,Odisha,1997-11-13,PROD105,Smart Watch,Electronics,boAt,1,4999.0,500.0,PAY007,Cash,Not Applicable
+ORD01126,2025-12-15,Shipped,2025-12-16 15:29:00,CUST517,Dev Malhotra,Chandigarh,Chandigarh,1985-06-28,PROD202,Cotton T-Shirt,Fashion,Levis,2,999.0,299.0,PAY001,UPI,Google Pay
+ORD01055,2026-08-09,Shipped,2026-08-11 09:04:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD403,Perfume,Beauty,Fogg,2,899.0,100.0,PAY008,Wallet,Amazon Pay
+ORD01097,2025-08-01,Delivered,2025-08-03 21:30:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD204,Denim Jeans,Fashion,Lee,3,2299.0,300.0,PAY008,Wallet,Amazon Pay
+ORD01121,2026-10-31,Delivered,2026-10-31 07:50:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD103,Bluetooth Speaker,Electronics,JBL,2,3499.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD01086,2025-08-18,Delivered,2025-08-19 18:38:00,CUST516,Pooja Verma,Bhopal,Madhya Pradesh,1995-03-04,PROD401,Face Moisturizer,Beauty,Nivea,2,499.0,149.0,PAY002,UPI,PhonePe
+ORD01112,2025-04-30,Returned,2025-05-02 22:56:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD301,Mixer Grinder,Home & Kitchen,Prestige,1,3499.0,0.0,PAY007,Cash,Not Applicable
+ORD01046,2026-04-10,Delivered,2026-04-12 23:08:00,CUST517,Dev Malhotra,Chandigarh,Chandigarh,1985-06-28,PROD204,Denim Jeans,Fashion,Lee,1,2299.0,100.0,PAY007,Cash,Not Applicable
+ORD01106,2025-04-15,Delivered,2025-04-17 12:57:00,CUST521,Kiran Gowda,Mysuru,Karnataka,1988-05-15,PROD203,Backpack,Fashion,Skybags,1,1799.0,0.0,PAY008,Wallet,Amazon Pay
+ORD01032,2025-10-03,Returned,2025-10-04 15:39:00,CUST508,Sara Khan,Lucknow,Uttar Pradesh,1998-03-30,PROD302,Air Fryer,Home & Kitchen,Philips,1,8999.0,500.0,PAY005,Debit Card,SBI
+ORD01085,2025-02-26,Delivered,2025-02-27 15:44:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD503,Cookbook,Books,HarperCollins,1,499.0,74.0,PAY005,Debit Card,SBI
+ORD01016,2026-09-27,Delivered,2026-09-27 11:46:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD202,Cotton T-Shirt,Fashion,Levis,1,999.0,0.0,PAY001,UPI,Google Pay
+ORD01034,2025-03-18,Shipped,2025-03-19 03:43:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD203,Backpack,Fashion,Skybags,2,1799.0,150.0,PAY005,Debit Card,SBI
+ORD01096,2026-01-24,Processing,2026-01-25 20:59:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD103,Bluetooth Speaker,Electronics,JBL,3,3499.0,200.0,PAY005,Debit Card,SBI
+ORD01025,2026-08-06,Delivered,2026-08-06 08:10:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD402,Shampoo 650ml,Beauty,Dove,1,399.0,59.0,PAY008,Wallet,Amazon Pay
+ORD01111,2026-06-22,Delivered,2026-06-22 05:37:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD104,Laptop 15-inch,Electronics,HP,1,58999.0,300.0,PAY001,UPI,Google Pay
+ORD01013,2026-03-18,Delivered,2026-03-18 21:29:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD203,Backpack,Fashion,Skybags,-2,1799.0,200.0,PAY006,Net Banking,ICICI Bank
+ORD01022,2026-02-12,Delivered,2026-02-12 13:03:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD304,Water Bottle,Home & Kitchen,Milton,3,699.0,0.0,PAY008,Wallet,Amazon Pay
+ORD01024,2025-11-28,Cancelled,2025-11-28 02:05:00,CUST503,Ishaan Reddy,Hyderabad,Telangana,1988-02-21,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,74.0,PAY002,UPI,PhonePe
+ORD01018,2026-01-31,Cancelled,2026-02-02 00:28:00,CUST507,Arjun Singh,Jaipur,Rajasthan,1986-07-25,PROD501,Fiction Novel,Books,Penguin,2,399.0,119.0,PAY004,Credit Card,HDFC Bank
+ORD01122,2026-11-26,Delivered,2026-11-27 03:37:00,CUST519,Manav Kulkarni,Nagpur,Maharashtra,1992-07-07,PROD201,Running Shoes,Fashion,Nike,3,4999.0,500.0,PAY002,UPI,PhonePe

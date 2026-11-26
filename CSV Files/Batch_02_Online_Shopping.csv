@@ -1,0 +1,29 @@
+order_id,order_date,order_status,order_updated_at,customer_id,customer_name,customer_city,customer_state,customer_dob,product_id,product_name,category,brand,quantity,unit_price,discount,payment_method_id,payment_method,payment_provider
+ORD02003,2026-10-06,Delivered,2026-10-07 08:27:00,CUST520,Sana Ali,Coimbatore,Tamil Nadu,1994-01-29,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD02001,2025-11-08,Delivered,2025-11-10 08:01:00,CUST517,Dev Malhotra,Chandigarh,Chandigarh,1985-06-28,PROD501,Fiction Novel,Books,Penguin,1,399.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD01034,2025-03-18,Delivered,2025-04-06 03:43:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD203,Backpack,Fashion,Skybags,2,1799.0,150.0,PAY005,Debit Card,SBI
+ORD02003,2026-10-06,Delivered,2026-10-07 08:27:00,CUST520,Sana Ali,Coimbatore,Tamil Nadu,1994-01-29,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD02007,2025-12-22,Delivered,2025-12-22 20:28:00,CUST519,Manav Kulkarni,Nagpur,Maharashtra,1992-07-07,PROD503,Cookbook,Books,HarperCollins,3,499.0,150.0,PAY006,Net Banking,ICICI Bank
+ORD02009,2025-02-27,Delivered,2025-03-01 02:29:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD103,Bluetooth Speaker,Electronics,JBL,2,3499.0,500.0,PAY002,UPI,PhonePe
+ORD01019,2025-11-08,Cancelled,2025-11-18 06:37:00,CUST508,Sara Khan,Pune,Maharashtra,1998-03-30,PROD103,Bluetooth Speaker,Electronics,JBL,1,3499.0,500.0,PAY006,Net Banking,ICICI Bank
+ORD01005,2025-10-18,Delivered,2025-10-30 06:42:00,CUST510,Nisha Rao,Hyderabad,Telangana,1993-01-17,PROD503,Cookbook,Books,HarperCollins,2,499.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD01122,2026-11-26,Cancelled,2026-12-21 03:37:00,CUST519,Manav Kulkarni,Nagpur,Maharashtra,1992-07-07,PROD201,Running Shoes,Fashion,Nike,3,4999.0,500.0,PAY002,UPI,PhonePe
+ORD02010,2026-10-24,Returned,2026-10-26 17:09:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,74.0,PAY004,Credit Card,HDFC Bank
+ORD02008,2025-10-10,Delivered,2025-10-11 16:29:00,CUST509,Vikram Das,Kolkata,West Bengal,1989-10-11,PROD502,Exam Preparation Guide,Books,Arihant,1,599.0,0.0,PAY001,UPI,Google Pay
+ORD02004,2025-11-13,Shipped,2025-11-13 10:32:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD301,Mixer Grinder,Home & Kitchen,Prestige,1,3499.0,0.0,PAY004,Credit Card,HDFC Bank
+ORD02012,2025-05-12,Delivered,2025-05-13 19:04:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD303,Bedsheet Set,Home & Kitchen,Spaces,3,1599.0,0.0,PAY007,Cash,Not Applicable
+ORD02011,2025-11-26,Delivered,2025-11-28 09:33:00,CUST511,Rohan Gupta,Delhi,Delhi,1991-05-22,PROD103,Bluetooth Speaker,Electronics,JBL,1,3499.0,300.0,PAY003,UPI,Paytm
+ORD01053,2026-10-04,Delivered,2026-10-15 17:48:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD105,Smart Watch,Electronics,boAt,2,4999.0,500.0,PAY008,Wallet,Amazon Pay
+ORD02014,2026-03-13,Delivered,2026-03-14 19:52:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD503,Cookbook,Books,HarperCollins,1,499.0,74.0,PAY002,UPI,PhonePe
+ORD02002,2025-02-11,Delivered,2025-02-12 14:07:00,CUST519,Manav Kulkarni,Nagpur,Maharashtra,1992-07-07,PROD304,Water Bottle,Home & Kitchen,Milton,2,699.0,200.0,PAY007,Cash,Not Applicable
+ORD02015,2026-03-31,Delivered,2026-04-02 18:23:00,CUST524,Maya Thomas,Thrissur,Kerala,1998-06-06,PROD403,Perfume,Beauty,Fogg,2,899.0,200.0,PAY002,UPI,PhonePe
+ORD01083,2025-08-08,Shipped,2025-08-21 10:50:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD204,Denim Jeans,Fashion,Lee,1,2299.0,50.0,PAY008,Wallet,Amazon Pay
+ORD02010,2026-10-24,Returned,2026-10-26 17:09:00,CUST502,Diya Patel,Ahmedabad,Gujarat,1992-11-03,PROD401,Face Moisturizer,Beauty,Nivea,1,499.0,-100.0,PAY004,Credit Card,HDFC Bank
+ORD01097,2025-08-01,Shipped,2025-08-22 21:30:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD204,Denim Jeans,Fashion,Lee,3,2299.0,300.0,PAY008,Wallet,Amazon Pay
+ORD02006,2025-06-20,Delivered,2025-06-22 12:48:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD103,Bluetooth Speaker,Electronics,JBL,4,3499.0,300.0,PAY003,UPI,Paytm
+ORD01053,2026-10-04,Processing,2026-10-15 15:48:00,CUST515,Neel Shah,Surat,Gujarat,1990-09-09,PROD105,Smart Watch,Electronics,boAt,2,4999.0,500.0,PAY008,Wallet,Amazon Pay
+ORD02013,2025-12-13,Returned,2025-12-14 21:19:00,CUST510,Nisha Rao,Pune,Maharashtra,1993-01-17,PROD203,Backpack,Fashion,Skybags,1,1799.0,0.0,PAY003,UPI,Paytm
+ORD02006,2025-06-20,Delivered,2025-06-22 12:48:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD103,Bluetooth Speaker,Electronics,JBL,0,3499.0,300.0,PAY003,UPI,Paytm
+ORD02005,2025-11-07,Delivered,2025-11-08 07:06:00,CUST525,Yash Jain,Udaipur,Rajasthan,1989-08-18,PROD302,Air Fryer,Home & Kitchen,Philips,2,8999.0,0.0,PAY006,Net Banking,ICICI Bank
+ORD01068,2025-10-28,Shipped,2025-11-06 11:45:00,CUST514,Kavya Shetty,Mangaluru,Karnataka,1999-02-16,PROD402,Shampoo 650ml,Beauty,Dove,1,399.0,59.0,PAY002,UPI,PhonePe
+ORD01034,2025-03-18,Processing,2025-04-06 01:43:00,CUST505,Kabir Mehta,Mumbai,Maharashtra,1990-04-08,PROD203,Backpack,Fashion,Skybags,2,1799.0,150.0,PAY005,Debit Card,SBI
