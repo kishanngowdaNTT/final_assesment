@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bronze
+    catalog: final_assesment
+    schema: bronze
+    tables:
+      - name: orders_raw
