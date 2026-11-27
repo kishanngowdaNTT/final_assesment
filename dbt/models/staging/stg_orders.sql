@@ -1,9 +1,8 @@
 
 WITH source_data AS (
-
     SELECT *
     FROM {{ source('bronze', 'orders_raw') }}
-
+    WHERE batch_id = '{{ var("batch_id") }}'
 ),
 
 staged AS (

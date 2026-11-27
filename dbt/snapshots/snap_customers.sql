@@ -7,10 +7,8 @@
         unique_key='customer_id',
         strategy='check',
         check_cols=[
-            'customer_name',
             'customer_city',
-            'customer_state',
-            'customer_dob'
+            'customer_state'
         ]
     )
 }}

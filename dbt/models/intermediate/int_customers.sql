@@ -12,6 +12,7 @@ WITH customer_records AS (
             PARTITION BY customer_id
             ORDER BY
                 order_updated_at DESC,
+                ingestion_timestamp DESC,
                 order_id DESC
         ) AS row_num
 
