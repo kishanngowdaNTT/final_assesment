@@ -3,7 +3,7 @@
 {{ config(
     materialized='table',
     schema='gold',
-    alias='fact_orders' if target.name == 'prod' else 'fct_orders'
+    alias='fact_orders' if target.schema != 'dbt_dev' else 'fct_orders'
 ) }}
 
 SELECT

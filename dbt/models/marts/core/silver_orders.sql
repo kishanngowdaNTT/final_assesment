@@ -5,9 +5,8 @@
     incremental_strategy='merge',
     unique_key='order_id',
     schema='silver',
-    alias='orders_clean' if target.name == 'prod' else 'silver_orders'
+    alias='orders_clean' if target.schema != 'dbt_dev' else 'silver_orders'
 ) }}
-
 
 
 WITH deduplicated_orders AS (

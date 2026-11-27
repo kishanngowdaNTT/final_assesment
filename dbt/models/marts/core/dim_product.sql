@@ -10,7 +10,7 @@ WITH ranked_products AS (
 
         ROW_NUMBER() OVER (
             PARTITION BY product_id
-            ORDER BY product_name
+            ORDER BY product_name, category, brand
         ) AS row_num
 
     FROM {{ ref('silver_orders') }}
@@ -20,9 +20,8 @@ WITH ranked_products AS (
 )
 
 SELECT
-    ROW_NUMBER() OVER (
-        ORDER BY product_id
-    ) AS product_key,
+    xxhash64(product_id) AS product_key,
+
     product_id,
     product_name,
     category,

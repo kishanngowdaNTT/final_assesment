@@ -1,9 +1,9 @@
-
 {{ config(materialized='table') }}
 
 SELECT
-    ROW_NUMBER() OVER (
-        ORDER BY customer_id, dbt_valid_from
+    xxhash64(
+        customer_id,
+        dbt_valid_from
     ) AS customer_key,
 
     customer_id,
