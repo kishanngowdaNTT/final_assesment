@@ -34,8 +34,12 @@ ranked_records AS (
         ROW_NUMBER() OVER (
             PARTITION BY order_id
             ORDER BY
-                order_updated_at DESC,
-                status_priority ASC
+    COALESCE(
+        order_updated_at,
+        CAST('1900-01-01' AS TIMESTAMP)
+    ) DESC,
+    status_priority ASC,
+    ingestion_timestamp DESC
         ) AS row_num
 
     FROM status_priority
