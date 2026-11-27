@@ -2,7 +2,7 @@
 
 {{
     config(
-        target_schema='snapshots' if target.name == 'prod' else 'dbt_dev',
+        target_schema='dbt_dev' if target.schema == 'dbt_dev' else 'snapshots',
         unique_key='customer_id',
         strategy='check',
         check_cols=['customer_city', 'customer_state']
