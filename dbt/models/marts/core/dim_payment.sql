@@ -9,7 +9,7 @@ WITH ranked_payments AS (
 
         ROW_NUMBER() OVER (
             PARTITION BY payment_method_id
-            ORDER BY payment_method
+            ORDER BY payment_method, payment_provider
         ) AS row_num
 
     FROM {{ ref('silver_orders') }}
@@ -19,9 +19,8 @@ WITH ranked_payments AS (
 )
 
 SELECT
-    ROW_NUMBER() OVER (
-        ORDER BY payment_method_id
-    ) AS payment_key,
+    xxhash64(payment_method_id) AS payment_key,
+
     payment_method_id,
     payment_method,
     payment_provider
