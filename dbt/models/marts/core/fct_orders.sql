@@ -1,5 +1,10 @@
 
-{{ config(materialized='table') }}
+
+{{ config(
+    materialized='table',
+    schema='gold',
+    alias='fact_orders' if target.name == 'prod' else 'fct_orders'
+) }}
 
 SELECT
     s.order_id,

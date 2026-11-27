@@ -1,8 +1,14 @@
+
+
 {{ config(
     materialized='incremental',
     incremental_strategy='merge',
-    unique_key='order_id'
+    unique_key='order_id',
+    schema='silver',
+    alias='orders_clean' if target.name == 'prod' else 'silver_orders'
 ) }}
+
+
 
 WITH deduplicated_orders AS (
     SELECT *
