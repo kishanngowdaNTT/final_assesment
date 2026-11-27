@@ -11,6 +11,10 @@ WITH customer_records AS (
         ROW_NUMBER() OVER (
             PARTITION BY customer_id
             ORDER BY
+                CAST(
+                    REGEXP_EXTRACT(batch_id, '(\\d+)', 1)
+                    AS INT
+                ) DESC,
                 order_updated_at DESC,
                 ingestion_timestamp DESC,
                 order_id DESC

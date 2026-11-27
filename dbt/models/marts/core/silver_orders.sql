@@ -50,14 +50,54 @@ WHERE NOT EXISTS (
     SELECT 1
     FROM {{ this }} existing
     WHERE existing.order_id = incoming.order_id
-      AND COALESCE(
-            incoming.order_updated_at,
-            CAST('1900-01-01' AS TIMESTAMP)
+
+      AND (
+          -- Reject incoming records with older timestamps
+          COALESCE(
+              incoming.order_updated_at,
+              CAST('1900-01-01' AS TIMESTAMP)
           )
-          <= COALESCE(
-            existing.order_updated_at,
-            CAST('1900-01-01' AS TIMESTAMP)
+          <
+          COALESCE(
+              existing.order_updated_at,
+              CAST('1900-01-01' AS TIMESTAMP)
           )
+
+          OR
+
+          -- For equal timestamps, compare status priority
+          (
+              COALESCE(
+                  incoming.order_updated_at,
+                  CAST('1900-01-01' AS TIMESTAMP)
+              )
+              =
+              COALESCE(
+                  existing.order_updated_at,
+                  CAST('1900-01-01' AS TIMESTAMP)
+              )
+
+              AND
+
+              CASE
+                  WHEN UPPER(TRIM(incoming.order_status)) = 'CANCELLED' THEN 1
+                  WHEN UPPER(TRIM(incoming.order_status)) = 'DELIVERED' THEN 2
+                  WHEN UPPER(TRIM(incoming.order_status)) = 'SHIPPED' THEN 3
+                  WHEN UPPER(TRIM(incoming.order_status)) = 'PROCESSING' THEN 4
+                  ELSE 5
+              END
+
+              >=
+
+              CASE
+                  WHEN UPPER(TRIM(existing.order_status)) = 'CANCELLED' THEN 1
+                  WHEN UPPER(TRIM(existing.order_status)) = 'DELIVERED' THEN 2
+                  WHEN UPPER(TRIM(existing.order_status)) = 'SHIPPED' THEN 3
+                  WHEN UPPER(TRIM(existing.order_status)) = 'PROCESSING' THEN 4
+                  ELSE 5
+              END
+          )
+      )
 )
 
 {% endif %}
