@@ -23,11 +23,11 @@ models:
 
     staging:
       +materialized: view
-      +schema: silver
+      +schema: intermediate
 
     intermediate:
       +materialized: view
-      +schema: silver
+      +schema: intermediate
 
     marts:
       core:
