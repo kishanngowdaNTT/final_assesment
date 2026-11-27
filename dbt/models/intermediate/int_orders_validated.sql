@@ -11,36 +11,50 @@ validation AS (
     SELECT
         *,
 
-        CASE
-            WHEN order_id IS NULL OR TRIM(order_id) = ''
-                THEN 'MISSING_ORDER_ID'
+        CONCAT_WS(
+            ', ',
 
-            WHEN order_date IS NULL
-                THEN 'MISSING_ORDER_DATE'
+            CASE
+                WHEN order_id IS NULL OR TRIM(order_id) = ''
+                THEN 'Missing order_id'
+            END,
 
-            WHEN order_status IS NULL OR TRIM(order_status) = ''
-                THEN 'MISSING_ORDER_STATUS'
+            CASE
+                WHEN order_date IS NULL
+                THEN 'Missing order_date'
+            END,
 
-            WHEN customer_id IS NULL OR TRIM(customer_id) = ''
-                THEN 'MISSING_CUSTOMER_ID'
+            CASE
+                WHEN customer_id IS NULL OR TRIM(customer_id) = ''
+                THEN 'Missing customer_id'
+            END,
 
-            WHEN product_id IS NULL OR TRIM(product_id) = ''
-                THEN 'MISSING_PRODUCT_ID'
+            CASE
+                WHEN product_id IS NULL OR TRIM(product_id) = ''
+                THEN 'Missing product_id'
+            END,
 
-            WHEN quantity IS NULL OR quantity <= 0
-                THEN 'INVALID_QUANTITY'
+            CASE
+                WHEN quantity IS NULL OR quantity <= 0
+                THEN 'Invalid quantity'
+            END,
 
-            WHEN unit_price IS NULL OR unit_price < 0
-                THEN 'INVALID_UNIT_PRICE'
+            CASE
+                WHEN unit_price IS NULL OR unit_price < 0
+                THEN 'Invalid unit_price'
+            END,
 
-            WHEN discount IS NULL OR discount < 0
-                THEN 'INVALID_DISCOUNT'
+            CASE
+                WHEN discount IS NULL OR discount < 0
+                THEN 'Invalid discount'
+            END,
 
-            WHEN discount > (quantity * unit_price)
-                THEN 'DISCOUNT_EXCEEDS_GROSS_AMOUNT'
+            CASE
+                WHEN quantity * unit_price < discount
+                THEN 'Discount exceeds gross amount'
+            END
 
-            ELSE NULL
-        END AS reject_reason
+        ) AS reject_reason
 
     FROM source_data
 
@@ -48,8 +62,9 @@ validation AS (
 
 SELECT
     *,
+
     CASE
-        WHEN reject_reason IS NULL THEN 'VALID'
+        WHEN reject_reason = '' THEN 'VALID'
         ELSE 'INVALID'
     END AS validation_status
 
