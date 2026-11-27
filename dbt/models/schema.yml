@@ -63,23 +63,27 @@ models:
       - name: date_key
         tests:
           - relationships:
-              to: ref('dim_date')
-              field: date_key
+              arguments:
+                to: ref('dim_date')
+                field: date_key
 
       - name: customer_key
         tests:
           - relationships:
-              to: ref('dim_customer')
-              field: customer_key
+              arguments:
+                to: ref('dim_customer')
+                field: customer_key
 
       - name: product_key
         tests:
           - relationships:
-              to: ref('dim_product')
-              field: product_key
+              arguments:
+                to: ref('dim_product')
+                field: product_key
 
       - name: payment_key
         tests:
           - relationships:
-              to: ref('dim_payment')
-              field: payment_key
+              arguments:
+                to: ref('dim_payment')
+                field: payment_key
